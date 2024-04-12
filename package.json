@@ -1,0 +1,21 @@
+{
+  "name": "with-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@urql/core": "^5.0.0",
+    "@urql/exchange-graphcache": "^7.0.1",
+    "fetch-mock": "^9.11.0",
+    "graphql": "^16.6.0",
+    "svelte": "^4.0.5"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "vite": "^4.2.0"
+  }
+}
